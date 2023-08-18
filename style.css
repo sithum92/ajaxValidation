@@ -1,0 +1,51 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-error {
+    border: 1px solid red;
+}
+
+.form-error,
+.form-success {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.form-error {
+    color: red;
+}
+
+.form-success {
+    color: green;
+}
+
+#form-message {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#mail-submit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mail-submit:hover {
+    background-color: #0056b3;
+}
